@@ -2,95 +2,101 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Sliding Animation</title>
-    <style>
-        ul.animation {
-            margin: 10px;
-        }
-        ul {
-            list-style: none;
-        }
-        ul.animation>li {
-            display: inline-block;
-            width:140px;
-            height: 160px;
-            margin-right: 50px;
-        }
-        .detail {
-            position: absolute;
-            display: inline-block;            
-            width:130px;
-            height: 150px;
-            padding:5px;
-            text-align: center;
-            background: firebrick;
-            color: white;
-            font-size: 1.2em;
-            opacity: 0;
-            transition: all 0.3s; 
-            transform: translate(-50px,0);
-        }
-        ul.detail:hover{
-            opacity:1;
-            transform: translate(0, 0);
-            
-        }
-        ul li:hover{
-            
-        }
-        div.component {
-            width: 140px;
-            height: 160px;
-            background: #f5a623;
-            display: inline-block;
-            position: absolute;
-            transition: all 0.3s;
-        }
-        .animation li:hover .detail{
-            cursor: pointer;
-            opacity:1; 
-            transform: translate(0,0);
-        }
-        /*.component:hover{
-            opacity:0;
-            transform: translate(50px, 0);
-        }*/
-        
-        
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
+    <h1>Sliding Animation</h1>
     <ul class="animation">
         <li>
-            <div class="component">
+            <div class="component yellow">
+                <span> Project </span>
             </div>
-            <ul class= "detail">
-                <li>Project</li>
+            <ul class="detail">
                 <li>Description</li>
-                <li>Technologies Used</li>
-            </ul>           
-        </li>
-                  
-        <li>
-            <div class="component">
-            </div>
-            <ul class= "detail">
-                <li>Project</li>
-                <li>Description</li>
-                <li>Technologies Used</li>
-            </ul>           
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
         </li>
 
         <li>
             <div class="component">
+                <span> Project </span>
             </div>
-            <ul class= "detail">
-                <li>Project</li>
+            <ul class="detail">
                 <li>Description</li>
-                <li>Technologies Used</li>
-            </ul>           
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
+        </li>
+
+        <li>
+            <div class="component  green">
+                <span> Project </span>
+            </div>
+            <ul class="detail">
+                <li>Description</li>
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
+        </li>
+
+        <li>
+            <div class="component">
+                <span> Project </span>
+            </div>
+            <ul class="detail">
+                <li>Description</li>
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
+        </li>
+
+        <li>
+            <div class="component">
+                <span> Project </span>
+            </div>
+            <ul class="detail">
+                <li>Description</li>
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
+        </li>
+
+        <li>
+            <div class="component yellow">
+                <span> Project </span>
+            </div>
+            <ul class="detail">
+                <li>Description</li>
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
+        </li>
+
+        <li>
+            <div class="component">
+                <span> Project </span>
+            </div>
+            <ul class="detail">
+                <li>Description</li>
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
+        </li>
+
+        <li>
+            <div class="component green">
+                <span> Project </span>
+            </div>
+            <ul class="detail">
+                <li>Description</li>
+                <li>Skills</li>
+                <li>Date</li>
+            </ul>
         </li>
     </ul>
 
